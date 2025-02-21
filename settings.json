@@ -1,0 +1,146 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.9,
+  "editor.fontLigatures": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "editor.stickyScroll.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.tree.enableStickyScroll": false,
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css",
+    ".dev.vars": "dotenv"
+  },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "*.mock.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.development.local": "gear",
+    ".env.test.local": "gear",
+    ".env.local": "gear",
+    ".env.example": "gear"
+  },
+  "symbols.folders.associations": {
+    "dtos": "folder-interfaces",
+    "middlewares": "folder-middlewares",
+    "hocs": "folder-interceptors",
+    "hooks": "folder-utils",
+    "langs": "folder-yellow",
+    "screens": "folder-pink-code",
+    "pages": "folder-pink-code",
+    "@types": "folder-blue-outline"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "workbench.editor.labelFormat": "short",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.svn": true,
+    ".vscode": true
+  },
+  "workbench.iconTheme": "symbols",
+  "update.mode": "default",
+  "terminal.integrated.gpuAcceleration": "on",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.commandCenter": false,
+  "git.openRepositoryInParentFolders": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": true,
+  "window.titleBarStyle": "native",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "explorer.fileNesting.enabled": true,
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Min Dark",
+  "files.autoSaveDelay": 500,
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
