@@ -71,10 +71,10 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "eslint.enable": false,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -142,5 +142,12 @@
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "git.autofetch": true,
+  "geminicodeassist.project": "yogic-polymer-n1vqp",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "files.eol": "\n",
+  "terminal.integrated.fontFamily": "Fira Code"
 }
